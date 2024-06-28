@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WATCH</string>
+    <string name="textview">Shop With RakSmey Phone Shop</string>
+    <string name="sub_title">Reksmey Phone shop  is a Leading Phone Shop in Cambodia. Now You can shop with our store on our new Mobile app RakSmey</string>
+    <string name="button_text">Explore</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="wallet">10.50 ETH</string>
+    <string name="categories">Brand</string>
+    <string name="view_all">View all</string>
+</resources>

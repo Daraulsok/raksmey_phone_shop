@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:gravity="center"
+       tools:ignore="MissingConstraints">
+
+       <ImageView
+           android:layout_width="192dp"
+           android:layout_height="243dp"
+           android:src="@drawable/logo"
+           tools:ignore="MissingConstraints"
+           tools:layout_editor_absoluteX="83dp"
+           tools:layout_editor_absoluteY="78dp" />
+
+       <TextView
+           android:id="@+id/myform"
+           android:layout_width="wrap_content"
+           android:layout_height="62dp"
+           android:text="Account Login"
+           android:textColor="@color/primary"
+           android:textSize="36sp"
+           tools:ignore="MissingConstraints"
+           tools:layout_editor_absoluteX="142dp"
+           tools:layout_editor_absoluteY="296dp" />
+
+       <EditText
+           android:id="@+id/email"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="8dp"
+           android:autofillHints="email"
+           android:background="@drawable/text_box"
+           android:hint="Email"
+           android:padding="8dp"
+           android:textSize="22sp"
+           tools:ignore="MissingConstraints" />
+
+       <EditText
+           android:id="@+id/password"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="8dp"
+           android:textSize="22sp"
+           android:hint="Password"
+           android:autofillHints="Password" android:layout_margin="8dp"
+           android:background="@drawable/text_box"
+           tools:ignore="MissingConstraints"
+           />
+
+       <Button
+           android:id="@+id/login"
+           android:layout_width="200dp"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="80dp"
+           android:layout_marginEnd="90dp"
+           android:padding="8dp"
+           android:textSize="22sp"
+           android:layout_margin="8dp"
+           android:textColor="@color/white"
+           android:background="@drawable/btn_bg1"
+           android:text="Login"
+           tools:ignore="MissingConstraints" />
+
+
+   </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
